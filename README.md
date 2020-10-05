@@ -10,9 +10,10 @@ macOS -> unzip `pong_release.zip` and follow the instructions in `install_readme
 
 linux -> requires compilation via _cargo_ (sorry!):
 
-1. install _cargo_ (comes packaged with Rust): `curl https://sh.rustup.rs -sSf | sh`
-2. run `./release.sh` which will build and package a release version as `pong_release.zip`
-3. unzip `pong_release.zip` and follow the instructions in `install_readme.txt`
+1. install _cargo_ (comes packaged with Rust): https://www.rust-lang.org/tools/install. Note: make sure your PATH is updated if not done automatically
+2. follow the instructions in `install_readme.txt` to install the [SDL 2.0](https://www.libsdl.org/index.php) dependency
+3. run `./release.sh` which will build and package a release version as `pong_release.zip`
+4. unzip `pong_release.zip` and play by running `./pong`
 
 ## Controls
 
