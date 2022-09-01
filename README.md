@@ -4,7 +4,7 @@ A two-player version of the classic game Pong, written in Rust using the [Tetra]
 
 ## Installation
 
-_Requirements: macOS, linux._
+_Requirements: macOS (pre-M1), linux._
 
 macOS -> unzip `pong_release.zip` and follow the instructions in `install_readme.txt`
 
